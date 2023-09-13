@@ -44,13 +44,13 @@ plt.ylabel('$p_X(x_i)$')
 plt.legend(["Numerical","Theory"])
 
 #if using termux
-#plt.savefig('../figs/uni_pdf.pdf')
-#plt.savefig('../figs/uni_pdf.eps')
-#subprocess.run(shlex.split("termux-open ../figs/uni_pdf.pdf"))
+plt.savefig('/root/codes/figs/uni_pdf.pdf')
+plt.savefig('/root/codes/figs/uni_pdf.eps')
+subprocess.run(shlex.split("termux-open /root/codes/figs/uni_pdf.pdf"))
 #if using termux
-plt.savefig('../figs/gauss_pdf.pdf')
-plt.savefig('../figs/gauss_pdf.eps')
-subprocess.run(shlex.split("termux-open ../figs/gauss_pdf.pdf"))
+plt.savefig('/root/codes/figs/gauss_pdf.pdf')
+plt.savefig('/root/codes/figs/gauss_pdf.eps')
+subprocess.run(shlex.split("termux-open /root/codes/figs/gauss_pdf.pdf"))
 #else
 #plt.show() #opening the plot window
 
